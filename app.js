@@ -104,7 +104,7 @@ var UIController = (function () {
             var fieldsArr = Array.prototype.slice.call(fields);
 
             fieldsArr.forEach(function(current, index, array) {
-                current.value = null;
+                current.value = "";
             });
 
             fieldsArr[0].focus();
